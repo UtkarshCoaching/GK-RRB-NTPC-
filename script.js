@@ -27,121 +27,129 @@ const questions = [
     "options": [
       "(a) অষ্টাধ্যায়ী",
       "(b) মহাভাষ্য",
-      "(c) যাজ্ঞবল্ক্য স্মৃতি",
-      "(d) মুগ্ধবোধ"
+      "(c) নিরুক্ত",
+      "(d) যাস্ক"
     ],
     "answer": "(a)",
-    "explanation": "পাণিনি ছিলেন একজন প্রাচীন সংস্কৃত ব্যাকরণবিদ, যিনি প্রায় খ্রিস্টপূর্ব চতুর্থ শতাব্দীতে বর্তমান ভারতের উত্তর-পশ্চিম অঞ্চলের গান্ধার রাজ্যের পুষ্কলাবতী শহরে বসবাস করতেন। তিনি তাঁর অষ্টাধ্যায়ী নামক সংস্কৃত ব্যাকরণ গ্রন্থের জন্য বিখ্যাত। এই গ্রন্থে তিনি সংস্কৃত ভাষার সম্পূর্ণ ব্যাকরণকে সূত্রাকারে লিপিবদ্ধ করেছেন।"
+    "explanation": "সংস্কৃত ব্যাকরণের বিকাশ শুরু হয় পাণিনির (খ্রিস্টপূর্ব চতুর্থ শতাব্দীর) সঙ্গে, তাঁর অষ্টাধ্যায়ী গ্রন্থের মাধ্যমে। এটি ভাষার একটি বিশ্লেষণ, যেখানে এটি সঠিকভাবে বর্ণনা করার জন্য ব্যাকরণের একটি সম্পূর্ণ কার্যকরী তত্ত্ব সরবরাহ করে।"
   },
   {
-    "question": "কোন প্রাচীন ভারতীয় লিপিতে ডান দিক থেকে বাম দিকে লেখা হয়?",
+    "question": "নিম্নলিখিত কোন বেদে জাদু মন্ত্র এবং আকর্ষণ রয়েছে?",
     "options": [
-      "(a) ব্রাহ্মী",
-      "(b) খরষ্ঠী",
-      "(c) সারদা",
-      "(d) নন্দনাগরী"
+      "(a) ঋগ্বেদ",
+      "(b) যজুর্বেদ",
+      "(c) সামবেদ",
+      "(d) অথর্ববেদ"
+    ],
+    "answer": "(d)",
+    "explanation": "অথর্ববেদ: অথর্ববেদ হলো 'অথর্বণদের জ্ঞানের ভান্ডার'। অথর্ববেদ হলো চতুর্থ বেদ। এটি অথর্বণ এবং অঙ্গিরাকে উৎসর্গীকৃত। অথর্ববেদে জাদু মন্ত্র এবং আকর্ষণ রয়েছে। এটি প্রধানত রোগ নিরাময়, দীর্ঘ জীবন লাভ এবং বিভিন্ন ধরনের জাগতিক আকাঙ্ক্ষা পূরণের সাথে সম্পর্কিত।"
+  },
+  {
+    "question": "বৌদ্ধ ধর্মের মূল ভিত্তি কী?",
+    "options": [
+      "(a) আর্য অষ্টাঙ্গিক মার্গ",
+      "(b) আর্য সত্য",
+      "(c) আর্য পঞ্চশীল",
+      "(d) আর্য দশশীল"
     ],
     "answer": "(b)",
-    "explanation": "খরোষ্ঠী লিপি খ্রিস্টপূর্ব চতুর্থ শতাব্দী থেকে খ্রিস্টীয় তৃতীয় শতাব্দীর মধ্যে ভারতীয় উপমহাদেশে ব্যবহৃত হয়েছিল। এটি ডানদিক থেকে বাম দিকে লেখা হতো এবং গান্ধার অঞ্চলের ভাষা লেখার জন্য ব্যবহৃত হতো।"
+    "explanation": "বৌদ্ধ ধর্মের মূল ভিত্তি হল চারটি আর্য সত্য (Four Noble Truths)। এই সত্যগুলি হল: দুঃখ, দুঃখের কারণ, দুঃখ নিরোধ, দুঃখ নিরোধের মার্গ (পথ)।"
   },
   {
-    "question": "নালন্দা বিশ্ববিদ্যালয় কোন রাজ্যে অবস্থিত ছিল?",
+    "question": "বৌদ্ধ ধর্মে, 'ত্রিমুকটি' বলতে কী বোঝায়?",
     "options": [
-      "(a) বিহার",
-      "(b) উত্তরপ্রদেশ",
-      "(c) পশ্চিমবঙ্গ",
-      "(d) ওড়িশা"
+      "(a) বুদ্ধ, ধর্ম, সংঘ",
+      "(b) ধর্ম, সংঘ, নির্বাণ",
+      "(c) বুদ্ধ, ধর্ম, অষ্টাঙ্গিক মার্গ",
+      "(d) সংঘ, নির্বাণ, প্রজ্ঞা"
     ],
     "answer": "(a)",
-    "explanation": "নালন্দা বিশ্ববিদ্যালয় প্রাচীন ভারতের মগধ রাজ্যে (বর্তমান বিহার) অবস্থিত একটি বিখ্যাত বৌদ্ধ বিহার এবং শিক্ষাকেন্দ্র ছিল। এটি গুপ্ত সাম্রাজ্যের সময় প্রতিষ্ঠিত হয়েছিল এবং বিশ্বের প্রাচীনতম বিশ্ববিদ্যালয়গুলোর মধ্যে অন্যতম।"
+    "explanation": "বৌদ্ধ ধর্মে, 'ত্রিমুকটি' বা ত্রিরত্ন (Three Jewels) বলতে বুদ্ধ (শিক্ষক), ধর্ম (শিক্ষা) এবং সংঘ (সম্প্রদায়) বোঝায়।"
   },
   {
-    "question": "মৌর্য সাম্রাজ্যের প্রতিষ্ঠাতা কে ছিলেন?",
+    "question": "কোন প্রাচীন ভারতীয় গ্রন্থে শূন্যের ধারণার প্রথম উল্লেখ পাওয়া যায়?",
     "options": [
-      "(a) অশোক",
-      "(b) চন্দ্রগুপ্ত মৌর্য",
-      "(c) বিন্দুসার",
-      "(d) দশরথ"
-    ],
-    "answer": "(b)",
-    "explanation": "চন্দ্রগুপ্ত মৌর্য ছিলেন মৌর্য সাম্রাজ্যের প্রতিষ্ঠাতা। তিনি আলেকজান্ডার দ্য গ্রেটের আক্রমণের পর মগধে তার ক্ষমতা প্রতিষ্ঠা করেন এবং নন্দ রাজবংশকে উৎখাত করে মৌর্য সাম্রাজ্য স্থাপন করেন।"
-  },
-  {
-    "question": "সিন্ধু সভ্যতার প্রধান বৈশিষ্ট্য কী ছিল?",
-    "options": [
-      "(a) গ্রামীণ জীবনযাপন",
-      "(b) নগর পরিকল্পনা",
-      "(c) লোহার ব্যবহার",
-      "(d) সাম্রাজ্য বিস্তার"
-    ],
-    "answer": "(b)",
-    "explanation": "সিন্ধু সভ্যতার সবচেয়ে উল্লেখযোগ্য বৈশিষ্ট্য ছিল এর উন্নত নগর পরিকল্পনা। হরপ্পা ও মহেঞ্জোদারোর মতো শহরগুলো সুপরিকল্পিত রাস্তাঘাট, পয়ঃনিষ্কাশন ব্যবস্থা এবং দুর্গযুক্ত কাঠামোর জন্য বিখ্যাত ছিল।"
-  },
-  {
-    "question": "বৌদ্ধ ধর্ম কে প্রতিষ্ঠা করেন?",
-    "options": [
-      "(a) মহাবীর",
-      "(b) গুরু নানক",
-      "(c) গৌতম বুদ্ধ",
-      "(d) আদিনাথ"
+      "(a) ঋগ্বেদ",
+      "(b) উপনিষদ",
+      "(c) আর্যভট্টীয়",
+      "(d) ব্রহ্মগুপ্ত সিদ্ধান্ত"
     ],
     "answer": "(c)",
-    "explanation": "বৌদ্ধ ধর্মের প্রতিষ্ঠাতা ছিলেন সিদ্ধার্থ গৌতম, যিনি 'বুদ্ধ' নামে পরিচিত। তিনি খ্রিস্টপূর্ব ষষ্ঠ শতাব্দীতে ভারতে জন্মগ্রহণ করেন এবং আধ্যাত্মিক জ্ঞান লাভের পর তার শিক্ষা প্রচার করেন।"
+    "explanation": "শূন্যের ধারণার প্রথম উল্লেখযোগ্য এবং পদ্ধতিগত আলোচনা আর্যভট্ট (খ্রিস্টীয় পঞ্চম শতাব্দী) তার আর্যভট্টীয় গ্রন্থে করেছেন।"
   },
   {
-    "question": "গুপ্ত সাম্রাজ্যের সময়কালে ভারতে কোন বিদেশী পর্যটক এসেছিলেন?",
+    "question": "সিন্ধু সভ্যতার কোন স্থানটি পোতাশ্রয় (ডকইয়ার্ড) এর জন্য পরিচিত?",
     "options": [
-      "(a) ফা-হিয়েন",
-      "(b) হিউয়েন সাং",
-      "(c) ইবনে বতুতা",
-      "(d) মেগাস্থিনিস"
-    ],
-    "answer": "(a)",
-    "explanation": "ফা-হিয়েন ছিলেন একজন চীনা বৌদ্ধ ভিক্ষু যিনি চতুর্থ শতাব্দীর শেষের দিকে এবং পঞ্চম শতাব্দীর শুরুতে ভারত ভ্রমণ করেন। তিনি গুপ্ত সাম্রাজ্যের সময় চন্দ্রগুপ্ত দ্বিতীয়ের শাসনামলে ভারতে আসেন।"
-  },
-  {
-    "question": "বেদ কয়টি?",
-    "options": [
-      "(a) 2",
-      "(b) 3",
-      "(c) 4",
-      "(d) 5"
+      "(a) হরপ্পা",
+      "(b) মহেঞ্জোদারো",
+      "(c) লোথাল",
+      "(d) কালিবঙ্গান"
     ],
     "answer": "(c)",
-    "explanation": "বেদ চারটি: ঋগ্বেদ, সামবেদ, যজুর্বেদ, এবং অথর্ববেদ।"
+    "explanation": "লোথাল (গুজরাটে অবস্থিত) সিন্ধু সভ্যতার একটি গুরুত্বপূর্ণ স্থান যা একটি প্রাচীন পোতাশ্রয় বা ডকইয়ার্ডের জন্য পরিচিত।"
+  },
+  {
+    "question": "বৌদ্ধ ধর্মে 'থেরাবাদ' বলতে কী বোঝায়?",
+    "options": [
+      "(a) মহাযান বৌদ্ধ ধর্মের একটি শাখা",
+      "(b) 'বزرুপ্তের পথ' নামেও পরিচিত",
+      "(c) বুদ্ধের আদি শিক্ষার প্রতি বিশ্বস্ত একটি ঐতিহ্য",
+      "(d) তিব্বতি বৌদ্ধ ধর্মের একটি রূপ"
+    ],
+    "answer": "(c)",
+    "explanation": "থেরাবাদ (Theravada) বৌদ্ধ ধর্ম বুদ্ধের আদি শিক্ষার প্রতি বিশ্বস্ত একটি ঐতিহ্য। এটি দক্ষিণ-পূর্ব এশিয়া এবং শ্রীলঙ্কায় প্রচলিত।"
+  },
+  {
+    "question": "মহাজনপদগুলির মধ্যে কোনটি সবচেয়ে শক্তিশালী ছিল?",
+    "options": [
+      "(a) কোশল",
+      "(b) মগধ",
+      "(c) অবন্তী",
+      "(d) বৎস"
+    ],
+    "answer": "(b)",
+    "explanation": "ষোড়শ মহাজনপদের মধ্যে মগধ ছিল সবচেয়ে শক্তিশালী। এর কারণ ছিল এর কৌশলগত অবস্থান, উর্বর ভূমি, এবং লোহার খনিজ সম্পদের সহজলভ্যতা।"
   }
 ];
 
-let currentQuestionIndex = 0;
-let userAnswers = new Array(questions.length).fill(null); // Stores selected option index
-let markedForReview = new Array(questions.length).fill(false);
-// 0: unattempted (red), 1: attempted (green), 2: marked for review (yellow), 3: attempted & marked (green with red star)
-let questionStates = new Array(questions.length).fill(0); // Initialize all questions as unattempted (0)
 
-let timeLeft = 30 * 60; // 30 minutes in seconds
+let currentQuestionIndex = 0;
+let userAnswers = new Array(questions.length).fill(null);
+// 0: unattempted (red), 1: attempted (green), 2: marked for review (yellow), 3: attempted & marked (green with red star)
+let questionStates = new Array(questions.length).fill(0);
+let markedForReview = new Array(questions.length).fill(false); // ট্র্যাক করে কোনটি মার্ক করা হয়েছে
+let timeLeft = 1800; // 30 minutes in seconds
 let timerInterval;
 
-const questionNumberElement = document.querySelector('.question-area .question-number');
-const questionTextElement = document.querySelector('.question-area .question-text');
+const questionNumberElement = document.querySelector('.question-number');
+const questionTextElement = document.querySelector('.question-text');
 const optionsArea = document.querySelector('.options-area');
-const timeElement = document.getElementById('time');
-
 const prevButton = document.querySelector('.prev-button');
-const nextButton = document.querySelector('.next-button'); // Corrected
+const nextButton = document.querySelector('.next-button');
 const clearResponseButton = document.querySelector('.clear-response-button');
 const markForReviewButton = document.querySelector('.mark-for-review-button');
 const submitButton = document.querySelector('.submit-button');
-
-const reviewArea = document.querySelector('.review-area');
+const timeElement = document.getElementById('time');
 const questionGridContainer = document.querySelector('.question-grid');
-const testContainer = document.querySelector('.test-container');
 const resultArea = document.querySelector('.result-area');
-const scoreElement = document.getElementById('score');
-const correctCountElement = document.getElementById('correct-count');
-const wrongCountElement = document.getElementById('wrong-count');
-const unattemptedCountElement = document.getElementById('unattempted-count');
-const reviewQuestionsContainer = document.getElementById('review-questions');
+const testContainer = document.querySelector('.test-container');
 
+function formatTime(seconds) {
+    const minutes = Math.floor(seconds / 60);
+    const remainingSeconds = seconds % 60;
+    return `${minutes.toString().padStart(2, '0')}:${remainingSeconds.toString().padStart(2, '0')}`;
+}
+
+function startTimer() {
+    timerInterval = setInterval(() => {
+        timeLeft--;
+        timeElement.textContent = formatTime(timeLeft);
+        if (timeLeft <= 0) {
+            clearInterval(timerInterval);
+            handleSubmit();
+        }
+    }, 1000);
+}
 
 function loadQuestion() {
     const question = questions[currentQuestionIndex];
@@ -149,44 +157,68 @@ function loadQuestion() {
     questionTextElement.textContent = question.question;
     optionsArea.innerHTML = ''; // Clear previous options
 
-    question.options.forEach((optionText, index) => {
+    question.options.forEach((option, index) => {
         const button = document.createElement('button');
         button.classList.add('option');
-        button.textContent = optionText;
+        button.textContent = option;
         button.addEventListener('click', () => selectOption(index));
-
-        // Highlight selected option if exists
-        if (userAnswers[currentQuestionIndex] === index) {
-            button.classList.add('selected');
-        }
         optionsArea.appendChild(button);
     });
 
-    updateNavigationButtons();
-    updateMarkForReviewButton();
-    updateQuestionGrid(); // Update grid on question load
-}
-
-function selectOption(selectedIndex) {
-    userAnswers[currentQuestionIndex] = selectedIndex;
-    // Mark as attempted (state 1) if not already marked for review (state 2 or 3)
-    if (questionStates[currentQuestionIndex] !== 2 && questionStates[currentQuestionIndex] !== 3) {
-        questionStates[currentQuestionIndex] = 1; // attempted (green)
-    } else if (questionStates[currentQuestionIndex] === 2) {
-        // If it was marked for review and now answered, it becomes attempted & marked
-        questionStates[currentQuestionIndex] = 3;
+    // হাইলাইট ইউজার অ্যানসার
+    if (userAnswers[currentQuestionIndex] !== null) {
+        optionsArea.children[userAnswers[currentQuestionIndex]].classList.add('selected');
     }
 
-    // Update UI for options
-    const options = optionsArea.querySelectorAll('.option');
-    options.forEach((button, index) => {
-        button.classList.remove('selected');
-        if (index === selectedIndex) {
-            button.classList.add('selected');
-        }
-    });
-    updateQuestionGrid(); // Update grid
+    updateNavigationButtons();
+    updateQuestionGrid();
 }
+
+function selectOption(optionIndex) {
+    userAnswers[currentQuestionIndex] = optionIndex;
+
+    // যদি প্রশ্নটি মার্ক করা না থাকে, তাহলে এটিকে attempted (সবুজ) হিসেবে চিহ্নিত করুন
+    if (questionStates[currentQuestionIndex] !== 2 && questionStates[currentQuestionIndex] !== 3) {
+        questionStates[currentQuestionIndex] = 1; // attempted (green)
+    } else if (questionStates[currentQuestionIndex] === 2) { // যদি মার্ক করা থাকে এবং উত্তর দেওয়া হয়
+        questionStates[currentQuestionIndex] = 3; // attempted & marked (green with red star)
+    }
+
+    loadQuestion(); // অপশন হাইলাইট করতে পুনরায় লোড করুন
+}
+
+function clearResponse() {
+    userAnswers[currentQuestionIndex] = null;
+    // যদি প্রশ্নটি মার্ক করা না থাকে, তাহলে এটিকে unattempted (লাল) হিসেবে চিহ্নিত করুন
+    if (questionStates[currentQuestionIndex] === 1) { // যদি উত্তর দেওয়া থাকে এবং তারপর ক্লিয়ার করা হয়
+        questionStates[currentQuestionIndex] = 0; // unattempted (red)
+    } else if (questionStates[currentQuestionIndex] === 3) { // যদি উত্তর দেওয়া ও মার্ক করা থাকে
+        questionStates[currentQuestionIndex] = 2; // marked for review (yellow)
+    }
+    markedForReview[currentQuestionIndex] = false; // মার্কও তুলে দিন
+    loadQuestion();
+}
+
+function toggleMarkForReview() {
+    markedForReview[currentQuestionIndex] = !markedForReview[currentQuestionIndex];
+
+    if (markedForReview[currentQuestionIndex]) {
+        if (userAnswers[currentQuestionIndex] !== null) {
+            questionStates[currentQuestionIndex] = 3; // Attempted & Marked (green with red star)
+        } else {
+            questionStates[currentQuestionIndex] = 2; // Marked for review (yellow)
+        }
+    } else {
+        // যদি মার্ক তুলে নেওয়া হয়
+        if (userAnswers[currentQuestionIndex] !== null) {
+            questionStates[currentQuestionIndex] = 1; // Attempted (green)
+        } else {
+            questionStates[currentQuestionIndex] = 0; // Unattempted (red)
+        }
+    }
+    loadQuestion();
+}
+
 
 function nextQuestion() {
     if (currentQuestionIndex < questions.length - 1) {
@@ -202,66 +234,25 @@ function prevQuestion() {
     }
 }
 
-function clearResponse() {
-    userAnswers[currentQuestionIndex] = null;
-    // If it was attempted, set back to unattempted (0)
-    // If it was marked for review, keep it marked for review (2)
-    if (questionStates[currentQuestionIndex] === 1 || questionStates[currentQuestionIndex] === 3) {
-        questionStates[currentQuestionIndex] = markedForReview[currentQuestionIndex] ? 2 : 0;
-    }
-
-    // Update UI for options
-    const options = optionsArea.querySelectorAll('.option');
-    options.forEach(button => button.classList.remove('selected'));
-    updateQuestionGrid(); // Update grid
-}
-
-function toggleMarkForReview() {
-    markedForReview[currentQuestionIndex] = !markedForReview[currentQuestionIndex];
-
-    if (markedForReview[currentQuestionIndex]) {
-        // If marked:
-        if (userAnswers[currentQuestionIndex] !== null) {
-            questionStates[currentQuestionIndex] = 3; // Attempted & Marked (green with red star)
-        } else {
-            questionStates[currentQuestionIndex] = 2; // Marked for review (yellow)
-        }
-    } else {
-        // If unmarked:
-        if (userAnswers[currentQuestionIndex] !== null) {
-            questionStates[currentQuestionIndex] = 1; // Attempted (green)
-        } else {
-            questionStates[currentQuestionIndex] = 0; // Unattempted (red)
-        }
-    }
-    updateMarkForReviewButton();
-    updateQuestionGrid(); // Update grid
-}
-
 function updateNavigationButtons() {
     prevButton.disabled = currentQuestionIndex === 0;
     nextButton.disabled = currentQuestionIndex === questions.length - 1;
-}
 
-function updateMarkForReviewButton() {
+    // 'Mark for Review' বাটনের টেক্সট আপডেট করুন
     if (markedForReview[currentQuestionIndex]) {
-        markForReviewButton.textContent = "Unmark for Review";
-        markForReviewButton.style.backgroundColor = '#dc3545'; // Red
-        markForReviewButton.style.borderColor = '#dc3545';
+        markForReviewButton.textContent = 'Unmark for Review';
     } else {
-        markForReviewButton.textContent = "Mark for Review";
-        markForReviewButton.style.backgroundColor = '#17a2b8'; // Turquoise
-        markForReviewButton.style.borderColor = '#17a2b8';
+        markForReviewButton.textContent = 'Mark for Review';
     }
 }
 
 function updateQuestionGrid() {
-    const gridButtons = questionGridContainer.querySelectorAll('.grid-button');
-    gridButtons.forEach((button, index) => {
-        button.classList.remove('unattempted', 'attempted', 'marked-for-review', 'current-question');
-        button.innerHTML = index + 1; // Reset innerHTML to just number
+    questionGridContainer.innerHTML = ''; // Clear existing buttons
+    questions.forEach((_, index) => {
+        const button = document.createElement('button');
+        button.classList.add('grid-button');
+        button.textContent = index + 1;
 
-        // Set colors based on state
         if (questionStates[index] === 0) {
             button.classList.add('unattempted'); // Red
         } else if (questionStates[index] === 1) {
@@ -273,101 +264,101 @@ function updateQuestionGrid() {
             button.innerHTML += '<span style="color: red; position: relative; top: -5px; font-size: 0.8em;">*</span>'; // Add red star
         }
 
-        // Highlight current question
+
         if (index === currentQuestionIndex) {
             button.classList.add('current-question');
         }
+        button.addEventListener('click', () => {
+            currentQuestionIndex = index;
+            loadQuestion();
+        });
+        questionGridContainer.appendChild(button);
     });
 }
 
 
-function startTimer() {
-    timerInterval = setInterval(() => {
-        const minutes = Math.floor(timeLeft / 60);
-        const seconds = timeLeft % 60;
-        timeElement.textContent = `${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
-
-        if (timeLeft <= 0) {
-            clearInterval(timerInterval);
-            submitTest();
-        }
-        timeLeft--;
-    }, 1000);
-}
-
-function submitTest() {
-    clearInterval(timerInterval); // Stop the timer
-    let score = 0;
+function handleSubmit() {
+    clearInterval(timerInterval);
     let correctCount = 0;
     let wrongCount = 0;
     let unattemptedCount = 0;
 
-    reviewQuestionsContainer.innerHTML = ''; // Clear previous review items
-
     questions.forEach((question, index) => {
         const userAnswerIndex = userAnswers[index];
-        const correctAnswer = question.answer; // e.g., "(c)"
-        const correctAnswerOption = question.options.find(opt => opt.startsWith(correctAnswer)); // e.g., "(c) শিলালিপি অধ্যয়ন"
-
-        let isCorrect = false;
-        let userAnswerText = 'N/A';
-        let userAnswerClass = 'unattempted-text'; // Default to unattempted text color
-
         if (userAnswerIndex !== null) {
-            userAnswerText = question.options[userAnswerIndex];
-            if (userAnswerText.startsWith(correctAnswer)) {
-                isCorrect = true;
+            // যদি উত্তর দেওয়া অপশনের টেক্সট, সঠিক উত্তরের টেক্সটের সাথে মেলে
+            if (question.options[userAnswerIndex] === question.answer) {
                 correctCount++;
-                score += 1; // Assuming 1 point per correct answer
-                userAnswerClass = 'correct-text';
             } else {
                 wrongCount++;
-                userAnswerClass = 'wrong-text';
             }
         } else {
             unattemptedCount++;
         }
-
-        const div = document.createElement('div');
-        div.classList.add('review-item');
-        if (isCorrect) {
-            div.classList.add('correct-answer-review');
-        } else if (userAnswerIndex !== null) {
-            div.classList.add('wrong-answer-review');
-        } else {
-            div.classList.add('unattempted-answer-review');
-        }
-
-        // Status text for review area
-        let statusText = '';
-        if (questionStates[index] === 1) { // Attempted (green)
-            statusText = '<span style="color: green;">Attempted</span>';
-        } else if (questionStates[index] === 2) { // Marked for review (yellow)
-            statusText = '<span style="color: orange;">Marked for Review</span>';
-        } else if (questionStates[index] === 3) { // Attempted & Marked (green with red star)
-            statusText = '<span style="color: green;">Attempted</span><span style="color: red; margin-left: 5px;">*</span>';
-        } else { // Unattempted (red)
-            statusText = '<span style="color: red;">Unattempted</span>';
-        }
-
-
-        div.innerHTML = `
-            <p class="review-question"><b>প্রশ্ন ${index + 1}: ${question.question}</b><span class="status-text">${statusText}</span></p>
-            <p class="review-user-answer">Your Answer: <span class="${userAnswerClass}">${userAnswerText}</span></p>
-            <p class="review-correct-answer">Correct Answer: <span class="correct-text">${correctAnswerOption}</span></p>
-            ${question.explanation ? `<p class="review-explanation">Explanation: ${question.explanation}</p>` : ''}
-        `;
-
-        reviewQuestionsContainer.appendChild(div);
     });
 
-    scoreElement.textContent = score;
-    correctCountElement.textContent = correctCount;
-    wrongCountElement.textContent = wrongCount;
-    unattemptedCountElement.textContent = unattemptedCount;
+    document.getElementById('score').textContent = correctCount;
+    document.getElementById('correct-count').textContent = correctCount;
+    document.getElementById('wrong-count').textContent = wrongCount;
+    document.getElementById('unattempted-count').textContent = unattemptedCount;
 
     testContainer.style.display = 'none';
     resultArea.style.display = 'block';
+
+    displayReview();
+}
+
+function displayReview() {
+  const reviewContainer = document.getElementById('review-questions');
+  reviewContainer.innerHTML = ''; // Clear previous review items
+
+  questions.forEach((question, index) => {
+    const div = document.createElement('div');
+    div.classList.add('review-item');
+
+    let userAnswerText = 'Unattempted';
+    let correctAnswerText = question.answer;
+    let userAnswerClass = 'unattempted-text'; // Default class
+    let statusText = 'Unattempted';
+    let reviewItemClass = 'unattempted-answer-review';
+
+
+    const userAnswerIndex = userAnswers[index];
+    if (userAnswerIndex !== null) {
+      userAnswerText = question.options[userAnswerIndex];
+      if (question.options[userAnswerIndex] === question.answer) {
+        userAnswerClass = 'correct-text';
+        statusText = 'Correct';
+        reviewItemClass = 'correct-answer-review';
+      } else {
+        userAnswerClass = 'wrong-text';
+        statusText = 'Wrong';
+        reviewItemClass = 'wrong-answer-review';
+      }
+    } else {
+        // If unattempted, but marked for review, display accordingly
+        if (markedForReview[index]) {
+            statusText = 'Marked for Review';
+            reviewItemClass = 'unattempted-answer-review'; // or a new class for marked but unattempted
+        }
+    }
+    div.classList.add(reviewItemClass);
+
+    // Add star if marked for review (even if attempted)
+    if (markedForReview[index] && questionStates[index] === 3) { // Only if attempted and marked
+        statusText += '<span style="color: red;">*</span>'; // Add red star to status text
+    }
+
+
+    div.innerHTML = `
+      <p class="review-question"><b>প্রশ্ন ${index + 1}: ${question.question}</b><span class="status-text">${statusText}</span></p>
+      <p class="review-user-answer">Your Answer: <span class="${userAnswerClass}">${userAnswerText}</span></p>
+      <p class="review-correct-answer">Correct Answer: <span class="correct-text">${correctAnswerText}</span></p>
+      ${question.explanation ? `<p class="review-explanation">Explanation: ${question.explanation}</p>` : ''}
+    `;
+
+    reviewContainer.appendChild(div);
+  });
 }
 
 // Initial calls
@@ -383,9 +374,6 @@ document.addEventListener('DOMContentLoaded', () => {
         questionGridContainer.appendChild(button);
     }
     
-    // Initialize question states to unattempted (red)
-    questionStates = new Array(questions.length).fill(0);
-
     loadQuestion();
     startTimer();
 
@@ -393,5 +381,5 @@ document.addEventListener('DOMContentLoaded', () => {
     prevButton.addEventListener('click', prevQuestion);
     clearResponseButton.addEventListener('click', clearResponse);
     markForReviewButton.addEventListener('click', toggleMarkForReview);
-    submitButton.addEventListener('click', submitTest);
+    submitButton.addEventListener('click', handleSubmit);
 });
