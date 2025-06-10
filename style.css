@@ -1,19 +1,17 @@
 body {
-    font-family: 'Arial', sans-serif; /* আরও আধুনিক ফন্ট ব্যবহার */
+    font-family: sans-serif;
     margin: 0;
     padding: 20px;
-    background-color: #f4f7f6; /* হালকা ধূসর ব্যাকগ্রাউন্ড */
-    color: #333;
-    line-height: 1.6;
+    background-color: #f0f0f0;
 }
 
 .test-container {
-    max-width: 850px; /* কিছুটা প্রশস্ত করুন */
-    margin: 20px auto; /* উপরে নিচে মার্জিন যোগ করুন */
-    background-color: #ffffff;
-    border-radius: 10px; /* আরও গোলাকার কিনারা */
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* উন্নত শ্যাডো */
-    padding: 30px;
+    max-width: 800px;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
 }
 
 .header {
@@ -21,75 +19,64 @@ body {
     justify-content: space-between;
     align-items: center;
     padding-bottom: 20px;
-    margin-bottom: 25px; /* নিচের মার্জিন যোগ করুন */
-    border-bottom: 1px solid #e0e0e0;
+    border-bottom: 1px solid #ccc;
 }
 
 .section-title {
-    font-size: 1.5em; /* কিছুটা বড় করুন */
+    font-size: 1.2em;
     font-weight: bold;
-    color: #2c3e50; /* গাঢ় নীল টেক্সট */
 }
 
 .timer {
-    font-size: 1.1em; /* কিছুটা বড় করুন */
-    color: #e74c3c; /* টাইমারের জন্য লাল রঙ */
-    font-weight: bold;
+    font-size: 1em;
+    color: #555;
 }
 
 .question-area {
-    margin-bottom: 30px;
+    margin-top: 20px;
 }
 
 .question-number {
-    font-size: 1em;
-    color: #7f8c8d; /* হালকা ধূসর রঙ */
-    margin-bottom: 5px;
+    font-size: 0.9em;
+    color: #888;
 }
 
 .question-text {
-    font-size: 1.3em; /* প্রশ্নের টেক্সট বড় করুন */
-    font-weight: 600;
+    font-size: 1.1em;
     margin-top: 10px;
-    color: #34495e; /* গাঢ় নীল টেক্সট */
 }
 
 .options-area {
     display: grid;
-    grid-template-columns: 1fr; /* মোবাইল-এর জন্য ১ কলাম */
-    gap: 12px; /* অপশনগুলোর মধ্যে ফাঁকা স্থান */
-    margin-bottom: 30px;
+    grid-template-columns: 1fr; /* Default to 1 column for options */
+    gap: 10px;
+    margin-top: 20px;
 }
 
 .options-area button {
-    background-color: #f8f9fa;
-    border: 1px solid #dcdcdc;
-    border-radius: 8px; /* গোলাকার বাটন */
-    padding: 12px 20px;
-    font-size: 1.1em;
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1em;
     text-align: left;
     cursor: pointer;
-    transition: all 0.3s ease; /* স্মুথ ট্রানজিশন */
-    color: #555;
-    white-space: normal; /* টেক্সট যাতে নতুন লাইনে চলে যায় */
-    word-wrap: break-word; /* লম্বা শব্দের জন্য */
+    transition: background-color 0.2s;
 }
 
 .options-area button:hover {
-    background-color: #e9ecef;
-    border-color: #b0c4de;
+    background-color: #e9e9e9;
 }
 
 .options-area button.selected {
-    background-color: #d1ecf1; /* নির্বাচিত অপশনের জন্য হালকা নীল */
-    border-color: #007bff; /* নির্বাচিত অপশনের জন্য গাঢ় নীল বর্ডার */
-    color: #004085;
-    font-weight: bold;
+    background-color: #d4edda;
+    border-color: #28a745;
+    color: #155724;
 }
 
-/* নেভিগেশন এরিয়া এবং বাটনগুলোর জন্য মোবাইল-ফ্রেন্ডলি স্টাইল */
+/* নেভিগেশন এরিয়া এবং বাটনগুলোর জন্য স্টাইল */
 .navigation-area {
-    display: flex; /* Flexbox ব্যবহার করুন */
+    display: flex;
     flex-wrap: wrap; /* ছোট স্ক্রিনে বাটনগুলো পরের লাইনে চলে যাবে */
     justify-content: center; /* বাটনগুলো মাঝখানে রাখুন */
     gap: 10px; /* বাটনগুলোর মধ্যে কিছুটা ফাঁকা স্থান */
@@ -100,20 +87,20 @@ body {
 
 .navigation-area button {
     flex: 1 1 auto; /* ফ্লেক্স আইটেম হিসেবে বাটনগুলো স্ক্রিনের আকার অনুযায়ী বাড়বে/কমবে */
-    padding: 12px 10px; /* প্যাডিং সামঞ্জস্য করুন */
-    font-size: 0.9em; /* ফন্ট সাইজ ছোট করুন */
+    padding: 10px 15px;
+    font-size: 0.9em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
     min-width: 120px; /* বাটনের সর্বনিম্ন প্রস্থ */
     box-sizing: border-box; /* প্যাডিং এবং বর্ডার যেন প্রস্থের মধ্যে থাকে */
     white-space: nowrap; /* টেক্সট যাতে এক লাইনে থাকে */
     text-align: center; /* টেক্সট সেন্টারে রাখুন */
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease, border-color 0.3s ease;
 }
 
 .navigation-area .prev-button,
 .navigation-area .next-button {
-    background-color: #007bff; /* নীল রঙ */
+    background-color: #007bff;
     color: #fff;
     border: 1px solid #007bff;
 }
@@ -132,7 +119,7 @@ body {
 }
 
 .navigation-area .clear-response-button {
-    background-color: #ffc107; /* হলুদ রঙ */
+    background-color: #ffc107;
     color: #333;
     border: 1px solid #ffc107;
 }
@@ -143,7 +130,7 @@ body {
 }
 
 .navigation-area .mark-for-review-button {
-    background-color: #17a2b8; /* ফিরোজা রঙ */
+    background-color: #17a2b8;
     color: #fff;
     border: 1px solid #17a2b8;
 }
@@ -154,7 +141,7 @@ body {
 }
 
 .navigation-area .submit-button {
-    background-color: #28a745; /* সবুজ রঙ */
+    background-color: #28a745;
     color: #fff;
     border: 1px solid #28a745;
 }
@@ -166,149 +153,141 @@ body {
 
 /* Review Area */
 .review-area {
-    margin-top: 40px;
-    padding-top: 25px;
-    border-top: 1px solid #e0e0e0;
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #ccc;
 }
 
 .review-area h3 {
     text-align: center;
-    color: #2c3e50;
-    margin-bottom: 20px;
-    font-size: 1.4em;
+    margin-bottom: 15px;
 }
 
 .question-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(45px, 1fr)); /* ছোট বাটনের জন্য */
-    gap: 8px; /* গ্রিড বাটনের মধ্যে ফাঁকা স্থান */
+    grid-template-columns: repeat(auto-fill, minmax(40px, 1fr));
+    gap: 5px;
     padding: 10px;
-    background-color: #fbfbfb;
-    border-radius: 8px;
-    border: 1px solid #eee;
+    background-color: #f9f9f9;
+    border-radius: 5px;
 }
 
 .grid-button {
-    background-color: #e9ecef;
-    border: 1px solid #dee2e6;
-    border-radius: 5px;
-    padding: 10px 5px; /* ছোট প্যাডিং */
-    font-size: 0.85em; /* ফন্ট সাইজ ছোট করুন */
+    background-color: #eee;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    padding: 8px 5px;
+    font-size: 0.8em;
     cursor: pointer;
-    transition: background-color 0.2s, border-color 0.2s;
+    transition: background-color 0.2s;
     text-align: center;
-    color: #495057;
-    position: relative; /* স্টার চিহ্নের জন্য */
+    position: relative;
 }
 
 .grid-button:hover {
-    background-color: #d1d9df;
+    background-color: #e0e0e0;
 }
 
 /* --- প্রশ্ন নম্বর গ্রিড বাটনের স্টাইল --- */
 .grid-button.unattempted {
-    background-color: #f8d7da; /* লালচে */
-    border-color: #f5c6cb;
-    color: #721c24;
+    background-color: #ffcccc; /* লালচে */
+    border-color: #ffaaaa;
+    color: #cc0000;
 }
 
 .grid-button.attempted {
-    background-color: #d4edda; /* সবুজ */
-    border-color: #c3e6cb;
-    color: #155724;
+    background-color: #ccffcc; /* সবুজ */
+    border-color: #aaffaa;
+    color: #008000;
 }
 
 .grid-button.marked-for-review {
-    background-color: #ffeeba; /* হলুদ */
-    border-color: #ffe8a1;
-    color: #856404;
+    background-color: #ffffcc; /* হলুদ */
+    border-color: #ffffaa;
+    color: #808000;
 }
 
 .grid-button.current-question {
-    background-color: #007bff; /* বর্তমান প্রশ্নের জন্য নীল */
+    background-color: #007bff;
     color: #fff;
     border-color: #007bff;
     font-weight: bold;
-    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.25); /* ফোকাস ইফেক্ট */
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.25);
 }
 /* --- প্রশ্ন নম্বর গ্রিড বাটনের স্টাইল শেষ --- */
 
-
 /* Result Area */
 .result-area {
-    margin-top: 40px;
-    padding: 25px;
-    background-color: #e9f5f5; /* হালকা সবুজ-নীল ব্যাকগ্রাউন্ড */
-    border-radius: 10px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
 }
 
 .result-area h2 {
-    color: #2c3e50;
-    font-size: 2em;
-    margin-bottom: 20px;
+    color: #333;
+    font-size: 1.8em;
+    margin-bottom: 15px;
 }
 
 .score, .correct-answers, .wrong-answers, .unattempted-questions {
-    font-size: 1.2em;
-    margin-bottom: 10px;
-    color: #4a4a4a;
+    font-size: 1.1em;
+    margin-bottom: 8px;
 }
 
-.score span, .correct-answers span, .wrong-answers span, .unattempted-questions span {
+.score span {
     font-weight: bold;
     color: #007bff;
 }
 
-.correct-answers span { color: #28a745; } /* সবুজ */
-.wrong-answers span { color: #dc3545; }   /* লাল */
-.unattempted-questions span { color: #6c757d; } /* ধূসর */
+.correct-answers span { color: #28a745; }
+.wrong-answers span { color: #dc3545; }
+.unattempted-questions span { color: #6c757d; }
 
 .review-questions-container {
-    margin-top: 30px;
-    border-top: 1px dashed #cfe2f3; /* হালকা নীল ড্যাশড বর্ডার */
-    padding-top: 20px;
+    margin-top: 20px;
+    border-top: 1px dashed #ccc;
+    padding-top: 15px;
     text-align: left;
 }
 
 .review-questions-container h3 {
     text-align: center;
-    color: #2c3e50;
-    margin-bottom: 20px;
-    font-size: 1.3em;
+    margin-bottom: 15px;
+    font-size: 1.2em;
 }
 
 .review-item {
     padding: 15px;
     border: 1px solid #e0e0e0;
-    border-radius: 8px;
-    margin-bottom: 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
     background-color: #fff;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
 }
 
 .review-question {
-    font-size: 1.15em;
-    margin-bottom: 8px;
+    font-size: 1.1em;
+    margin-bottom: 5px;
     color: #333;
-    font-weight: 500;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .status-text {
-    font-size: 0.85em;
+    font-size: 0.8em;
     font-weight: normal;
-    padding: 4px 8px;
-    border-radius: 4px;
+    padding: 3px 6px;
+    border-radius: 3px;
     background-color: #f0f0f0;
     color: #555;
 }
 
 .review-user-answer, .review-correct-answer {
-    font-size: 1em;
+    font-size: 0.95em;
     margin-bottom: 5px;
     color: #555;
 }
@@ -317,42 +296,42 @@ body {
     font-size: 0.9em;
     color: #666;
     border-top: 1px dashed #eee;
-    padding-top: 10px;
-    margin-top: 10px;
+    padding-top: 8px;
+    margin-top: 8px;
 }
 
 /* Background/border for review items based on overall status */
 .correct-answer-review {
-    border-left: 6px solid #28a745; /* Green border for correct answers */
-    background-color: #e9f8ed; /* হালকা সবুজ ব্যাকগ্রাউন্ড */
+    border-left: 5px solid #28a745; /* Green border for correct answers */
+    background-color: #e6ffe6;
 }
 
 .wrong-answer-review {
-    border-left: 6px solid #dc3545; /* Red border for wrong answers */
-    background-color: #fdeded; /* হালকা লাল ব্যাকগ্রাউন্ড */
+    border-left: 5px solid #dc3545; /* Red border for wrong answers */
+    background-color: #ffe6e6;
 }
 
 .unattempted-answer-review {
-    border-left: 6px solid #ffc107; /* Yellow border for unattempted */
-    background-color: #fff8e8; /* হালকা হলুদ ব্যাকগ্রাউন্ড */
+    border-left: 5px solid #ffc107; /* Yellow border for unattempted */
+    background-color: #fffce6;
 }
 
 .correct-text {
-    color: #28a745; /* সবুজ */
+    color: #28a745;
     font-weight: bold;
 }
 
 .wrong-text {
-    color: #dc3545; /* লাল */
+    color: #dc3545;
     font-weight: bold;
 }
 
 .unattempted-text {
-    color: #6c757d; /* ধূসর */
+    color: #6c757d;
     font-weight: bold;
 }
 
-/* Responsive adjustments for smaller screens (mobile-first approach) */
+/* Mobile adjustments */
 @media (max-width: 768px) {
     body {
         padding: 10px;
@@ -364,29 +343,28 @@ body {
     }
 
     .header {
-        flex-direction: column; /* স্ট্যাক হেডার আইটেম */
+        flex-direction: column;
         align-items: flex-start;
-        padding-bottom: 15px;
-        margin-bottom: 20px;
+        padding-bottom: 10px;
     }
 
     .section-title {
-        font-size: 1.3em;
+        font-size: 1.1em;
         margin-bottom: 5px;
     }
 
     .timer {
-        font-size: 1em;
-        align-self: flex-end; /* টাইমার ডানদিকে রাখুন */
+        font-size: 0.9em;
+        align-self: flex-end;
     }
 
     .question-text {
-        font-size: 1.15em; /* প্রশ্ন টেক্সট ছোট করুন */
+        font-size: 1em;
     }
 
     .options-area button {
-        padding: 10px 15px; /* অপশন বাটন ছোট করুন */
-        font-size: 1em;
+        padding: 8px 10px;
+        font-size: 0.95em;
     }
 
     /* নেভিগেশন বাটনগুলোর জন্য মোবাইল স্টাইল */
@@ -399,53 +377,18 @@ body {
 
     .navigation-area button {
         width: 100%; /* পুরো প্রস্থ নিন */
-        padding: 12px 10px; /* প্যাডিং সামঞ্জস্য করুন */
-        font-size: 0.95em; /* ফন্ট সাইজ সামঞ্জস্য করুন */
+        padding: 10px 8px; /* প্যাডিং সামঞ্জস্য করুন */
+        font-size: 0.9em; /* ফন্ট সাইজ সামঞ্জস্য করুন */
         min-width: unset; /* সর্বনিম্ন প্রস্থের সীমা সরান */
     }
 
-    .review-area h3, .result-area h2 {
-        font-size: 1.2em;
-    }
-
     .question-grid {
-        grid-template-columns: repeat(auto-fill, minmax(40px, 1fr)); /* গ্রিড বাটন আরও ছোট করুন */
-        gap: 6px;
+        grid-template-columns: repeat(auto-fill, minmax(35px, 1fr));
+        gap: 4px;
     }
 
     .grid-button {
-        padding: 8px 4px;
-        font-size: 0.8em;
-    }
-
-    .review-question .status-text {
-        font-size: 0.75em;
-        padding: 3px 6px;
-    }
-}
-
-/* Extra small screens (e.g., iPhone 5/SE) */
-@media (max-width: 375px) {
-    .test-container {
-        padding: 10px;
-    }
-    .section-title {
-        font-size: 1.1em;
-    }
-    .question-text {
-        font-size: 1.05em;
-    }
-    .options-area button {
-        font-size: 0.95em;
-        padding: 8px 12px;
-    }
-    .navigation-area button {
-        font-size: 0.9em;
-        padding: 10px 8px;
-    }
-    .grid-button {
-        font-size: 0.75em;
         padding: 6px 3px;
-        min-width: 35px;
+        font-size: 0.75em;
     }
 }
